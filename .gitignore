@@ -1,7 +1,5 @@
 # Independent Submodules (Tracked in their own independent git repositories)
 # Note: When staging the submodules in git, use `git add -f Frontend Backend` or stage via .gitmodules
-Frontend/
-Backend/
 
 # Environment Variables
 .env
