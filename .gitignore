@@ -1,0 +1,33 @@
+# Independent Submodules (Tracked in their own independent git repositories)
+# Note: When staging the submodules in git, use `git add -f Frontend Backend` or stage via .gitmodules
+Frontend/
+Backend/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Dependency Directories & Build outputs
+node_modules/
+dist/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
